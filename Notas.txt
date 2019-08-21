@@ -1,0 +1,20 @@
+git branch -> muestra las ramas
+git branch <nombre> -> crea una rama con ese nombre
+git checkout <nombre> -> nos para en la rama con ese nombre
+git checkout -b <nombre> -> nos para en la rama con ese nombre y si no existe la crea
+git clone url -> clona la rama con ese url
+git remote add <name> <url> -> asigna un repositorio remoto al que ya tengo
+
+En las computadoras de la ORT:
+git config --global http.proxy http://proxycen.ort.edu.uy:80
+SI SINQUERER HICE ESTO EN MI LAPTOP: git config --unset -all--global 
+
+
+c.. para moverme para atras( yo no camino para atras como cangrejo)
+
+git add. SUBE TODOS LOS ARCHIVOS AL STAGED
+git status PARA SABER EL ESTADO DE LOS ARCHIVOS
+
+git commit -m "texto" (BUENA PRACTICA DECIR QUE ESTAMOS COMMITEANDO :D )
+
+git push origin develop (AGREGA A LA RAMA DEVELOP DEL SERVIDOR REMOTO CON LOS ARCHIVOS COMMITEADOS)
